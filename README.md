@@ -33,17 +33,17 @@ Use SSStumble if you are switching between mouse and touchpad to disable the gli
 
 ## FAQ
 
-How can I change GGGlide glide parameters?
+- How can I change GGGlide glide parameters?
 Anytime you want to change GGGlide glide parameters you have to run GGGsetup and modify them via its GUI.
 
-Why is a new GGGlide file created every time I run GGGsetup?
+- Why is a new GGGlide file created every time I run GGGsetup?
 Using numerical values instead of variables make GGGlide run faster. So GGGsetup has a template, fills in any numerical parameters required and outputs the newly created GGGlide file. This happens every time you make changes via GGGsetup.
 
-Why shouldn’t I copy a GGGlide script from one PC to another?
+- Why shouldn’t I copy a GGGlide script from one PC to another?
 One of the baked-in GGGlide numerical parameters relates to the tick length of the time keeping counter and is CPU dependent. So a GGGlide script created in one machine is not portable to another.
 If you want to replicate a GGGlide config you should copy the “.ini” file and GGGsetup to the new PC and run GGGsetup again. This will reproduce the same GGGlide experience (or you could note the GGGsetup parameters and enter them manually via the GUI).
 
-Why modify the OS pointer settings?
+- Why modify the OS pointer settings?
 When you alter the Windows pointer settings, the OS takes the pointing device input and scales it accordingly. Say the device reports displacement X and given your pointers Windows “sensitivity”, for example, it scales that to 0.5*X or 1.5*X (other settings affect things like pointer acceleration). Using the default settings suggested by GGGlide the OS does not interfere with the pointing device output, it is 1 to 1.
 This way you eliminate some variables from the physics equation.
 Also, usually these settings are used to increase the reach of the pointer (by increasing pointer sensitivity) but at the cost of fiddly short distance navigation. With GGGlide you are covered for long/medium pointer displacements and you might as well enjoy an increased short distance resolution and range of hand motion.
