@@ -26,7 +26,7 @@ The script below will prompt you for the speed of the pointer above which a glid
 Optionally, GGGlide can change the OS pointer settings of Windows to the recommended defaults at every script launch.
 Do not use the GGGlide script created on one PC on other machines. It will not work as expected. Note the glide parameters and then rerun the GGGSetup on the new machine (or copy the ggglide.ini file).
 
-## GGGlide General Notes:
+## GGGlide Notes:
 
 Any mouse settings changes can be reverted painlessly by doing the following: 'Start>Mouse>Pointer Options' you will see a "Motion" box. There you can revert to any settings. If you untick "enhanced pointer precision" and move the speed slider exactly at the middle (6th line) you will replicate the GGGlide settings.
 Use SSStumble if you are switching between mouse and touchpad to disable the gliding while mousing.
@@ -59,7 +59,7 @@ For those who often switch between mouse and touchpad use and prefer disabling G
 
 Download and run on the same directory with your trusty GGGlide. Upon launch you can select pointing devices where GGGlide gliding will be disabled by SSStumble. You can launch SSStumble and wait for the message box to expire and GGGlide will be launched soon after. All settings are preserved in the GGGlide ".ini" file.
 
-SSStumble Notes:
+## SSStumble Notes:
 - SSStumble disables GGGlide only once the current glide has been completed/interrupted (assuming the pointer is currently gliding when switching to the disabled mouse/device). This is evident only when triggering a pause to GGGlide via a hotkey.
 - SSStumble only works with the new version of GGGlide v1.97.1 and above. Any older version will not work.
 - SSStumble must be running in the background in order to monitor the device which you are using.
