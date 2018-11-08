@@ -51,7 +51,7 @@ All that being said GGGlide works fine with any OS settings.
 
 # SSStumble
 
-(GGGlide Add-On)
+(GGGlide Companion)
 
 For those who often switch between mouse and touchpad use and prefer disabling GGGlide while "mousing" there is SSStumble! SSStumble is an additional script. When using the mouse GGGlide will be disabled by SSStumble.
 
