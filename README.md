@@ -20,18 +20,18 @@ After a short 'flick' of the finger on the touchpad surface the pointer starts g
 
 I have a Logitech T650 touchpad and this has been a feature I had been sorely missing.
 
-Instructions
+## Instructions
 
 The script below will prompt you for the speed of the pointer above which a glide will be performed. Then, it will create and run GGGlide. You can run the GGGsetup as many times required or every time you want to change the glide parameters. You will need to experiment with different values due to hardware variability. The setup dialog will have as default speed your current GGGlide value for easier tweaking.
 Optionally, GGGlide can change the OS pointer settings of Windows to the recommended defaults at every script launch.
 Do not use the GGGlide script created on one PC on other machines. It will not work as expected. Note the glide parameters and then rerun the GGGSetup on the new machine (or copy the ggglide.ini file).
 
-GGGlide General Notes:
+## GGGlide General Notes:
 
 Any mouse settings changes can be reverted painlessly by doing the following: 'Start>Mouse>Pointer Options' you will see a "Motion" box. There you can revert to any settings. If you untick "enhanced pointer precision" and move the speed slider exactly at the middle (6th line) you will replicate the GGGlide settings.
 Use SSStumble if you are switching between mouse and touchpad to disable the gliding while mousing.
 
-FAQ
+## FAQ
 
 How can I change GGGlide glide parameters?
 Anytime you want to change GGGlide glide parameters you have to run GGGsetup and modify them via its GUI.
@@ -55,7 +55,7 @@ All that being said GGGlide works fine with any OS settings.
 
 For those who often switch between mouse and touchpad use and prefer disabling GGGlide while "mousing" there is SSStumble! SSStumble is an additional script. When using the mouse GGGlide will be disabled by SSStumble.
 
-Instructions
+## Instructions
 
 Download and run on the same directory with your trusty GGGlide. Upon launch you can select pointing devices where GGGlide gliding will be disabled by SSStumble. You can launch SSStumble and wait for the message box to expire and GGGlide will be launched soon after. All settings are preserved in the GGGlide ".ini" file.
 
